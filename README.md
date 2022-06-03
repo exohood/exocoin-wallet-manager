@@ -1,4 +1,4 @@
-
+![Title](head_coin_exo.png)
 # Exohood Wallet Manager
 
 A wallet manager written in PHP to create and verify Exohood wallet
