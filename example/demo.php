@@ -52,7 +52,7 @@ require_once '../lib/SHA3.php';
 </style>
 
 <form method="post">
-    <h1>Exohood PHP Wallet Manager</h1>
+    <h1>Exohood Wallet Manager</h1>
 
     <?php
     // Check for a request.
@@ -100,13 +100,13 @@ require_once '../lib/SHA3.php';
 
     <div>
         <p>
-            <strong>Generate exo Wallet</strong>
+            <strong>Generate ExoCoin Wallet</strong>
             <code>Exohood\Wallet\WalletManager()->wallet_from_seed()</code>
         </p>
         <button name="action" value="wallet_new">Generate New Wallet</button>
     </div>
     <div>
-        <strong>Generate exo Wallet From Seed</strong>
+        <strong>Generate ExoCoin Wallet From Seed</strong>
         <code>Exohood\Wallet\WalletManager()->wallet_from_seed($seed);</code>
         <p>
             <label for="wallet_seed">Seed (32 chars)</label>
@@ -124,7 +124,7 @@ require_once '../lib/SHA3.php';
         <button name="action" value="wallet_mnemonic">Generate New Wallet From Mnemonic Words</button>
     </div>
     <div>
-        <strong>Decode exo Integrated Wallet</strong>
+        <strong>Decode ExoCoin Integrated Wallet</strong>
         <code>Exohood\Wallet\WalletManager()->integrated_decode($integrated_address)</code>
         <p>
             <label for="wallet_integrated_decode">Integrated Wallet (109 chars)</label>
@@ -133,7 +133,7 @@ require_once '../lib/SHA3.php';
         <button name="action" value="wallet_integrated_decode">Decode Integrated Wallet Address</button>
     </div>
     <div>
-        <strong>Encode exo Integrated Wallet (address)</strong>
+        <strong>Encode ExoCoin Integrated Wallet (address)</strong>
         <code>Exohood\Wallet\WalletManager()->integrated_encode_address($address, $payment_id = null)</code>
         <p>
             <label for="wallet_integrated_encode_address_address">Wallet Address</label>
@@ -146,7 +146,7 @@ require_once '../lib/SHA3.php';
         <button name="action" value="wallet_integrated_encode_address">Encode Integrated Wallet Address (address)</button>
     </div>
     <div>
-        <strong>Encode exo Integrated Wallet (keys)</strong>
+        <strong>Encode ExoCoin Integrated Wallet (keys)</strong>
         <code>Exohood\Wallet\WalletManager()->integrated_encode($public_spend_key, $public_view_key, $payment_id = null)</code>
         <p>
             <label for="wallet_integrated_encode_view">Public View Key (64 chars)</label>
