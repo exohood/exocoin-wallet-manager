@@ -1,18 +1,19 @@
 {
-  "name": "Exohood/wallet-manager-php",
-  "description": "Exohood PHP Wallet Manager",
+  "name": "exohood/wallet-manager-php",
+  "description": "ExoCoin Wallet Manager",
   "type": "library",
   "keywords": [
     "Exohood",
-    "exo",
-    "wallet",
+    "Exo",
+    "ExoCoin",
+    "Wallet",
     "php"
   ],
-  "homepage": "https://github.com/Exohood/exohood-wallet-manager",
+  "homepage": "https://github.com/exohood/exohood-exocoin-wallet-manager",
   "license": "MIT",
   "authors": "JJ Uzumaki"
     {
-      "name": "Exohood Software Limited",
+      "name": "Exohood Protocol",
       "email": "support@exohood.com"
     }
   ,
@@ -23,7 +24,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Exohood\\Wallet\\": "lib"
+      "exohood\\Wallet\\": "lib"
     }
   }
 }
