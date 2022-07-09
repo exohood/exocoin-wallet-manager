@@ -1,4 +1,5 @@
-<?php
+<?php>
+
 /*
  * The MIT License (MIT)
  *
